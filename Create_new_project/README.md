@@ -24,3 +24,4 @@ Next, the window will be showing **"add sources" and "add constraints"**, in the
 
 ![4](https://github.com/user-attachments/assets/c69fdb9f-4dcc-4e73-839c-4ea8cdbe6367)
 
+Once you have selected the boards and click next, you will be shown the **new project summary**. There will be warning sign as there are no sources and constraints file provided and that's fine as we could add them once we are inside the project. If you are happy, click finish and you are about to start your journey in your new project. 
