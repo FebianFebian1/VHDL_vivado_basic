@@ -15,7 +15,7 @@ It is expected that you have installed the vivado software and have an FPGA to b
 ![IMG_0055](https://github.com/user-attachments/assets/b6b11914-3d53-4af2-9472-52af5ccbd7b2)
 
 ## Steps
-
+1. [Creating a new project](https://github.com/FebianFebian1/VHDL_vivado_basic/tree/main/Create_new_project)
 
 ## Useful Link:
 Other board xdc file (digilent): https://github.com/Digilent/digilent-xdc/
