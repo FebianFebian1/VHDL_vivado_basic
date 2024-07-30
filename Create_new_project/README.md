@@ -25,3 +25,23 @@ Next, the window will be showing **"add sources" and "add constraints"**, in the
 ![4](https://github.com/user-attachments/assets/c69fdb9f-4dcc-4e73-839c-4ea8cdbe6367)
 
 Once you have selected the boards and click next, you will be shown the **new project summary**. There will be warning sign as there are no sources and constraints file provided and that's fine as we could add them once we are inside the project. If you are happy, click finish and you are about to start your journey in your new project. 
+
+### **3. initial setup**
+
+Once finish, you should be able to see the workspace interface looks like the image below. (The details in the project summary window and the console box will be slightly different as the screenshot is taken from the finish project example).
+
+![5](https://github.com/user-attachments/assets/9aefef47-d1e6-4243-ade2-d31ea181e645)
+
+Next, find the source window which consists of 4 folders including **"Design sources" and "Constraint"** the 2 folder we will be focusing on. Then on top of that window, click the plus sign to add source and you will be prompted with 3 different selections namely add or create **constraints, design sources, and simulations** as shown below.
+
+![6](https://github.com/user-attachments/assets/66aaf16a-5864-4f47-9c09-7739fdedd88f)
+
+In this case, we would like to **add the design sources**, which essentially where all the VHDL/verilog code is written before deploying to FPGA board. If you click create file, you will be prompted with a window shown below. You will be able to specified the language of it which decides the extension of the file either to be .v or .vhd. The defaulted location of the file will be in design sources folder if **"local to project"** option is selected. The name of the file will be the entity name so please be considerate in naming the file for manageable purposes. 
+
+![7](https://github.com/user-attachments/assets/77ea0b1d-6385-4297-9e59-31a14cfd2660)
+
+After adding the file you can either add more files or click finish. Once you click finish, there will be a prompted window for you to define the **Input or Outputs** port as shown in the image below. This of course can be skipped as you will be able to add them manually in the source file. However, adding them here would save some time as it will be defined directly in your source code once you finish by clicking the OK button. 
+
+![8](https://github.com/user-attachments/assets/0c10d304-aefc-4daf-b67f-1a88fbe92353)
+
+
