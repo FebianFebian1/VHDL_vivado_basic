@@ -8,7 +8,7 @@ Then, If we **run implementation**, in this part we will see how does the logic 
 
 ![10](https://github.com/user-attachments/assets/9070dc0a-96f4-4795-bc20-91899a616627)
 
-### Generate Bitstream
+### 2. Generate Bitstream
 
 After synthesis and implementation has been run successfully, we can start generating bitstream file (the .bit file that does the programming inside the FPGA board). If the synthesis or implementation is "out of date" (due to any changes in sources, constraints or simulation), clicking the **generate bitstream** option will automatically goes through the process of synthesis or implementation. 
 
