@@ -6,6 +6,8 @@ In this section we will be looking at some source examples on how to implement b
 
 The **"design sources"** folder contains the VHDL code used in the project to be synthesis and impelemented to the FPGA board. The image below shows a very easy high level example implementing 2 buttons as an input and LED as an output. The vhd file can be find above. if you put it in your project design sources folder directory it will works the same way. 
 
+**Notes**: if your entity name is not the same as your source filename, the generation of bitstream will follow the name of your entity. (It always a good practice to make the entity name the same as the filename) 
+
 ![9](https://github.com/user-attachments/assets/506037e2-86b6-4280-be13-3ae64799aae1)
 
 ### 2. Constraints
