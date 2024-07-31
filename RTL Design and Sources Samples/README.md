@@ -12,6 +12,4 @@ The **"design sources"** folder contains the VHDL code used in the project to be
 
 In this part is where the connection between the logic that have been coded in design sources is connected to a specific pins on the FPGA board. The Xdc file can be found above or in the useful links section if you are using a xilinx digilent board that is not nexys video. 
 
-In the xdc file, all the components in the FPGA has been listed and all we have to do is to select the one we would like to utilise and edit the line to match the name of the port in our entity. This will be connected and rendered automatically during **implementation** process. You can also decided to copy paste the line into a new .xdc file as shown in the image below. 
-
-<Image>
+In the xdc file, all the components in the FPGA has been listed and all we have to do is to select the one we would like to utilise and edit the line to match the name of the port in our entity. This will be connected and rendered automatically during **implementation** process. You can also decided to copy paste the line into a new .xdc file as can be found in the file above. 
