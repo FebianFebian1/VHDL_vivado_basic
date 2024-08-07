@@ -23,3 +23,4 @@ It is expected that you have installed the vivado software and have an FPGA to b
 
 1. Other board xdc file (digilent): [Here](https://github.com/Digilent/digilent-xdc/)
 2. Vivado Installation Guide: [Here](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis)
+3. Basic VHDL Programming: [Here](https://vhdlwhiz.com/basic-vhdl-tutorials/)
