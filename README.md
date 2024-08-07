@@ -16,7 +16,7 @@ It is expected that you have installed the vivado software and have an FPGA to b
 
 ## Steps
 1. [Creating a new project](https://github.com/FebianFebian1/VHDL_vivado_basic/tree/main/Create_new_project)
-2. [RTL Design and Sources Samples](https://github.com/FebianFebian1/VHDL_vivado_basic/tree/main/FPGA%20Implementation)
+2. [RTL Design and Sources Samples](https://github.com/FebianFebian1/VHDL_vivado_basic/tree/main/RTL%20Design%20and%20Sources%20Samples)
 3. [FPGA Implementation](https://github.com/FebianFebian1/VHDL_vivado_basic/tree/main/FPGA%20Implementation)
 
 ## Useful Link:
