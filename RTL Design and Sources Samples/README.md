@@ -19,14 +19,14 @@ In the xdc file, all the components in the FPGA has been listed and all we have 
 ## **List of sources:**
 In this section, a brief explaination for each project uploaded in src folder will be provided. When copying the sources file into your project design sources file, please keep the name of the sources as src.vhd and the constraints as nexysv.xdc. 
 
-1. src-and:
+**1. src-and:**
 
 This project is simply to implement an "and" gate as shown in the above example. Utilizing 2 buttons as its input and an LED as its output, using the built-in and function we can implement this directly. The constraints file use for this one is "nexysv.xdc"
 
-2. src-nor:
+**2. src-nor:**
 
 This project is simply to implement an "nor" gate as shown in the above example. very similarly to the "and" one, utilizing 2 buttons as its input and an LED as its output, using the built-in and function we can implement this directly. The constraints file use for this one is "nexysv.xdc"
 
-3. src-buttonCounter:
+**3. src-buttonCounter:**
 
 This project is try to use clk and reset into the process. The idea of this project is if a button is click, the counter signal is added by 1 and if another button is click, the counter signal is substracted by 1. By using the if else logic and utilising 8 LED's as a representative of 8 bits counter, we can implement this quite straightforwardly. The constraints file use for this one is "nexysv-buttonCounter.xdc". 
