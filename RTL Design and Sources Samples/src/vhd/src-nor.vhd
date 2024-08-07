@@ -18,17 +18,17 @@
 -- 
 ----------------------------------------------------------------------------------
 
-
+-- please remove the -nor from the name when copying the file into your design sources folder
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity abc is
+entity src is
     Port ( button1 : in STD_LOGIC;
            button2 : in std_logic;
            led1 : out STD_LOGIC);
-end abc;
+end src;
 
-architecture Behaviral of abc is
+architecture Behavioral of src is
 begin
     led1 <= button1 nor button2;
-end Behaviral;
+end Behavioral;
