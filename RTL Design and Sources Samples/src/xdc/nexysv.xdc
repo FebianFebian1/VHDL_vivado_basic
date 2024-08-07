@@ -1,3 +1,5 @@
+## Copy this file to constraints when implementing src-and and src-nor vhdl sources
+
 ## LEDs
 set_property -dict {PACKAGE_PIN T14 IOSTANDARD LVCMOS25} [get_ports {led1}]
 
