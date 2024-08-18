@@ -30,3 +30,7 @@ This project is simply to implement an "nor" gate as shown in the above example.
 **3. src-buttonCounter:**
 
 This project is try to use clk and reset into the process. The idea of this project is if a button is click, the counter signal is added by 1 and if another button is click, the counter signal is substracted by 1. By using the if else logic and utilising 8 LED's as a representative of 8 bits counter, we can implement this quite straightforwardly. The constraints file use for this one is "nexysv-buttonCounter.xdc". 
+
+**4. src-andOr:**
+
+This project is am easy example attempting hierarchial VHDL programming. Essentially by introducing smaller modules into the main VHDL file, the project will be easier to navigate and manageable. In this example, we have 3 inputs from buttons, and 1 LED output. 2 inputs goes into the "and" gate. Then, the output of the "and" gate and the 3rd inpuuts goes to an "or" gate, producing the output indicated by LED. The src-andOR vhd file provided is simply utilises src-and vhd file and you will have to alter it a little bit to create the "or" module. Add them under the Design Sources folder in your project (make sure the name matches), and you can deploy it into your FPGA. 
