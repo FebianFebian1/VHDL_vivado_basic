@@ -17,7 +17,7 @@ In this part is where the connection between the logic that have been coded in d
 In the xdc file, all the components in the FPGA has been listed and all we have to do is to select the one we would like to utilise and edit the line to match the name of the port in our entity. This will be connected and rendered automatically during **implementation** process. You can also decided to copy paste the line into a new .xdc file as can be found in the file above. 
 
 ## **List of sources:**
-In this section, a brief explaination for each project uploaded in src folder will be provided. When copying the sources file into your project design sources file, please keep the name of the sources as src.vhd and the constraints as nexysv.xdc. 
+In this section, a brief explaination for each project uploaded in src folder will be provided. When copying the sources file into your project design sources file, please keep the name of the sources as src.vhd and the constraints as nexysv.xdc to avoid any unnecessary complications. 
 
 **1. src-and:**
 
