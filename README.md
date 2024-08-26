@@ -20,7 +20,10 @@ It is expected that you have installed the vivado software and have an FPGA to b
 3. [FPGA Implementation](https://github.com/FebianFebian1/VHDL_vivado_basic/tree/main/FPGA%20Implementation)
 
 ## Useful Link:
+The steps above is limited to the FPGA used as described, basic VHDL coding, and FPGA implementation. Check out these useful links to find other resources on how to perform simulation, other project examples, etc.
 
 1. Other board xdc file (digilent): [Here](https://github.com/Digilent/digilent-xdc/)
 2. Vivado Installation Guide: [Here](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-vitis)
 3. Basic VHDL Programming: [Here](https://vhdlwhiz.com/basic-vhdl-tutorials/)
+4. Tutorial Video to understand Digital Design: [Here](https://www.youtube.com/playlist?list=PLEdaowO6UzNENeQ2WHyGC6mlmggnnhMD6)
+5. Simulation Testbench for Waveform analysis: [Here](https://www.youtube.com/watch?v=aeMQJEfGsPY)
